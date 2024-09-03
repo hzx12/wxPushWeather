@@ -5,7 +5,7 @@ on:
      # 启动时间，为 UTC 时间对应北京时间早8点0分
     - cron : '0 0 * * *'
     # 启动时间，为 UTC 时间对应北京时间晚上17点25分
-    - cron : '30 9 * * *'
+    - cron : '35 9 * * *'
   workflow_dispatch:
 
 permissions:
